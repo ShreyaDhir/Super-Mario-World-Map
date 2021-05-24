@@ -6,7 +6,7 @@ function initMap() {
 			lng: 135.43076145097373,
 		},
 		zoom: 18,
-		mapId: '629f9cfdd2aef9d2',
+		mapId: 'MAP_ID',
 		mapTypeControl: false,
 		fullscreenControl: false,
 		streetViewControl: false,
@@ -93,3 +93,6 @@ function initMap() {
 		});
 	}
 }
+
+var token = config.MY_API_TOKEN;
+var key = config.SECRET_API_KEY;
